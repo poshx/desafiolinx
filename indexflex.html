@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linx</title>
+
+    <link rel="stylesheet" href="./cssflex.css">
+    
+    
+</head>
+<body>  
+
+    
+
+    <header class="opener">
+        
+        
+            <div class="wrapper">
+                <text id="titulo1">uma seleção de produtos</text>
+                <text id="titulo2">especial para você</text>
+                <text id="titulo3">Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite</text>
+            </div>
+            <div class="btnheader">
+                <button id="btnheader" type="button">Conheça a Linx</button>
+                <button id="btnheader" type="button">Ajude o algoritimo</button>
+                <button id="btnheader" type="button">Seus Produtos</button>
+                <button id="btnheader" type="button">Compartilhe</button>
+            </div> 
+        
+    </header>
+    
+<div class="center">
+    <div class="frame1">
+        <text id="titulo">Ajude o algoritimo a ser mais certeiro</text>
+        
+        <text id="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies tellus nec mi porta convallis sollicitudin eu urna. Mauris rhoncus erat sed interdum dignissim. Suspendisse semper pretium consectetur. Praesent bibendum arcu risus, sit amet iaculis ex tempus quis. Cras et erat ut tellus vulputate tincidunt. Aenean lacinia euismod augue vel egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum vel urna tortor. Vivamus et arcu non felis tristique eleifend.<br><br> 
+        
+        Morbi eu condimentum urna. Curabitur eu magna eget turpis condimentum ultrices. Suspendisse quis lorem ultricies, pulvinar purus sed, egestas erat. Etiam ultricies a ante vehicula pharetra. Quisque ut neque mattis, consequat velit ut, ultrices orci. Nulla varius elementum erat vel pharetra. Aenean sit amet nisi diam. Morbi viverra, magna ac luctus commodo, odio ante suscipit libero, at mattis augue est vel metus. 
+        </text>
+    </div>
+
+    <div class="formulario">
+        <label for="" id="label">Seu nome:</label>
+        <input type="text" id="input" name="inome">
+        <label for="" id="label">E-mail:</label>
+        <input type="text" id="input" name="iemailnome">
+        <label for="" id="label">CPF:</label>
+        <input type="text" id="input" class="cpf" name="icpfnome" autocomplete="off" maxlength="14" onkeyup="mascara_cpf()">
+        <div class="radio">
+            <input type="radio" id="rmasc">
+            <label for="" id="lmasc">Masculino</label>
+            <input type="radio" id="rfem">
+            <label for="" id="lfem">Feminino</label>
+        </div>
+        <div class="btnenviar">
+            <input type="button" id="btnenviar" name="enviar" value="Enviar">
+        </div>
+    
+    </div>
+</div>
+    
+    
+
+        
+    
+    <div class="field">
+        <fieldset id="field1">
+        </fieldset>
+        <label id="txtprodutos">Sua seleção especial</label>
+        <fieldset id="field2"></fieldset>
+    </div>
+
+    <div class="container">
+        
+    </div>
+    <div class="div2">
+    <div class="container2"></div>
+    </div>
+    <button class="btnmais">Ainda mais produtos aqui!</button>
+
+    <div class="field">
+        <fieldset id="field3">
+        </fieldset>
+        <label id="txtprodutos2">Compartilhe a novidade</label>
+        <fieldset id="field4"></fieldset>
+    </div>
+
+    <div class="news">
+        <label class="textonews">Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</label>
+    </div>
+<div class="divfinal">
+    <div class="newslabel">
+        <label class="labelamigo">Nome do seu amigo:</label>
+        <input type="text" class="inputamigo" autocomplete="off"></input>
+        
+    </div>
+
+    <div class="newsinput">
+        
+        
+        <label class="labelemail">E-mail:</label>
+        <input type="email" onblur="validarEmail()" onfocus="redefinirMsg()" id="email" class="inputemail"/>
+        <span id="error-email"></span>
+        <span id="sucess-email"></span>
+    </div>
+        
+    </div>
+</div>
+
+    
+    <button type="submit" name="submit" class="btnenviar2">Enviar agora</button>
+
+    <footer class="footer">
+        <p class="txtfinal">Testando suas habilidades em HTML, CSS e JS<br>Linx Impulse<br>2019</p>
+    </footer>
+    
+    
+   
+   
+   
+
+    <script src="scriptflex.js"></script>
+</body>
+</html>
