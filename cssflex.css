@@ -578,6 +578,11 @@
     opacity: 1;
     width: 260px;
     height: 39px;
+    text-align: center;
+    font: normal normal normal 16px Helvetica;
+    letter-spacing: 0px;
+    color: #888888;
+    opacity: 1;
 }
 .footer {
     background-color: #707070;
