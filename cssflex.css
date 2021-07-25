@@ -135,6 +135,7 @@
     width: 340px;
     height: 30px;
     margin-bottom: 13px;
+    text-align: left;
 }
 #label {
     margin-bottom: 7px;
@@ -506,7 +507,7 @@
     color: #888888;
     opacity: 1;
     width: 550px;
-    height: 16px;
+    height: 20px;
     margin-left: 33%;
     margin-bottom: 39px;
 }
@@ -553,6 +554,9 @@
     flex-wrap: wrap;
 
 }
+
+
+
 .labelamigo{
     text-align: left;
     font: normal normal normal 12px Helvetica;
@@ -615,10 +619,15 @@
     line-height: 1.8;
     color: #FFFFFF;
     opacity: 1;
-    width: 260px;
-    height: 80px;
+    width: 280px;
+    height: 90px;
   }
   .divfinal {
       display: flex;
       
   }
+.newsinput span.error {
+    display: flex;
+    padding: 0;
+    background-color: red;
+}

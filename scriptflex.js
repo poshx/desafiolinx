@@ -12,6 +12,7 @@ window.addEventListener('load', async () => {
     
     
     
+    
 });
 
 function mapElements() {
@@ -78,18 +79,13 @@ function validarEmail(){
     var sucess = document.querySelector('#sucess-email');
     
     
-    if(!email.checkValidity()){
-        error.innerHTML = "Email invalido";  
-    } 
+    //if(!email.checkValidity()){
+    //    alert("Email invalido")
+    //} 
     
 }
     
     
-     
-  
-
-
-
 function redefinirMsg(){
     var error = document.querySelector('#error-email');
     var sucess = document.querySelector('#sucess-email');
@@ -144,5 +140,10 @@ btnmais.addEventListener('click',function(fetchUsers) {
     }
 
 });
+
+
+
+    
+
 
 

@@ -6,6 +6,7 @@
     <title>Linx</title>
 
     <link rel="stylesheet" href="./cssflex.css">
+    <link rel="stylesheet" href="./normalize.css">
     
     
 </head>
@@ -39,14 +40,14 @@
         Morbi eu condimentum urna. Curabitur eu magna eget turpis condimentum ultrices. Suspendisse quis lorem ultricies, pulvinar purus sed, egestas erat. Etiam ultricies a ante vehicula pharetra. Quisque ut neque mattis, consequat velit ut, ultrices orci. Nulla varius elementum erat vel pharetra. Aenean sit amet nisi diam. Morbi viverra, magna ac luctus commodo, odio ante suscipit libero, at mattis augue est vel metus. 
         </text>
     </div>
-
+<form action="">
     <div class="formulario">
         <label for="" id="label">Seu nome:</label>
-        <input type="text" id="input" name="inome">
+        <input type="text" id="input" name="inome" required>
         <label for="" id="label">E-mail:</label>
-        <input type="text" id="input" name="iemailnome">
+        <input type="email" id="email" class="inputemail" required/>
         <label for="" id="label">CPF:</label>
-        <input type="text" id="input" class="cpf" name="icpfnome" autocomplete="off" maxlength="14" onkeyup="mascara_cpf()">
+        <input type="text" id="input" class="cpf" name="icpfnome" autocomplete="off" maxlength="14" onkeyup="mascara_cpf()" required>
         <div class="radio">
             <input type="radio" id="rmasc">
             <label for="" id="lmasc">Masculino</label>
@@ -54,10 +55,11 @@
             <label for="" id="lfem">Feminino</label>
         </div>
         <div class="btnenviar">
-            <input type="button" id="btnenviar" name="enviar" value="Enviar">
+            <input type="submit" id="btnenviar" name="enviar" value="Enviar">
         </div>
     
     </div>
+</form>
 </div>
     
     
@@ -89,10 +91,11 @@
     <div class="news">
         <label class="textonews">Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</label>
     </div>
+<form action="">
 <div class="divfinal">
     <div class="newslabel">
         <label class="labelamigo">Nome do seu amigo:</label>
-        <input type="text" class="inputamigo" autocomplete="off"></input>
+        <input type="text" class="inputamigo" autocomplete="off" required/>
         
     </div>
 
@@ -100,17 +103,19 @@
         
         
         <label class="labelemail">E-mail:</label>
-        <input type="email" onblur="validarEmail()" onfocus="redefinirMsg()" id="email" class="inputemail"/>
-        <span id="error-email"></span>
-        <span id="sucess-email"></span>
+        
+        <input type="email" id="email" class="inputemail" required/>
+        
+        
     </div>
+
         
     </div>
 </div>
 
     
     <button type="submit" name="submit" class="btnenviar2">Enviar agora</button>
-
+</form>
     <footer class="footer">
         <p class="txtfinal">Testando suas habilidades em HTML, CSS e JS<br>Linx Impulse<br>2019</p>
     </footer>
