@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    
     padding: 0;
     max-width: 100%;
     box-sizing: border-box;
@@ -91,8 +91,8 @@
 .frame1 {
     display: flex;
     flex-direction: column;
-    margin-left: 21%;
     
+    margin-left: 21%;
     flex-wrap: wrap;
     
     
@@ -108,6 +108,7 @@
     color: #888888;
     opacity: 1;
     flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 #texto {
     
@@ -119,13 +120,18 @@
     color: #888888;
     opacity: 1;
     flex-wrap: wrap;
+    line-height: 1.5;
+    margin-right: 60px;
+    
 }
 
 .formulario{
-    display:flex;
-    flex-direction: column;
+    text-align: left;
     flex-wrap: wrap;
-    margin-left: 60px;
+    
+    width: 340px;
+    
+    
     
 }
 #input {
@@ -193,7 +199,7 @@
 .field #field1 {
     
     margin-top: 91px;
-    width:359px;
+    width:28.5%;
     height: 1px;
     margin-left: 19%;
     border: 1px solid #707070;
@@ -203,7 +209,7 @@
 }
 .field #field2 {
     margin-top: 91px;
-    width:351px;
+    width:27%;
     height: 1px;
     
     border: 1px solid #707070;
@@ -467,7 +473,7 @@
 }
 .field #field4 {
     margin-top: 138px;
-    width:370px;
+    width:345px;
     height: 1px;
     margin-left: 5px;
     border: 1px solid #707070;
@@ -630,4 +636,442 @@
     display: flex;
     padding: 0;
     background-color: red;
+}
+
+@media (max-width: 1187px) {
+    .formulario {
+        margin-left: 15rem;
+        
+    }
+      
+}
+
+@media (max-width: 1324px) {
+    .container {
+        grid-template-columns: 1fr 1fr 1fr;
+        height:1080px
+    }
+    .container2 {
+        grid-template-columns: 1fr 1fr 1fr;
+        height:1080px
+    }
+      
+}
+@media (max-width: 1001px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+        height:1440px
+    }
+    .container2 {
+        grid-template-columns: 1fr 1fr;
+        height:1440px
+    }
+      
+}
+@media (max-width: 893px) {
+
+    .field #field1 {
+        width:21.5%;
+        height: 1px;  
+    }
+    .field #field2 {
+        width:20%;
+        height: 1px;  
+    }  
+}
+@media (max-width: 672px) {
+    
+    #btnheader{
+        margin-right: 21px;
+        margin-bottom: 20px;
+    }
+    .btnheader {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 38px;
+    }
+    .frame1 {
+        margin-left: 17px;
+    }
+    #titulo {
+        width: 332px;
+    }
+    #texto {
+        width:386px;
+        height: 220px;
+    }
+    .formulario {
+        margin-left: 17px;
+        
+    }
+    .field {
+        align-items:unset;
+        display: flex;
+        margin-left: 0px;
+    }
+    .field #field1 {
+        margin-left: 0px;
+        margin-top: 91px;
+        width:103px;
+        height: 1px;
+    }
+    .field #field2 {
+        margin-top: 91px;
+        width:102px;
+        height: 1px;
+    }
+    .field #txtprodutos{
+        margin-top: 83px;
+        margin-left: 17px;
+        margin-right: 17px;
+        font-size: 18px;
+        width: 203px;
+        height: 22px;   
+    }
+    .field #field3 {
+        width:103px;
+        height: 1px;
+        margin-left: 0px;
+          
+    }
+    .field #field4 {
+        width:102px;
+        height: 1px;
+        margin-left: 0px;
+      
+    }
+    .field #txtprodutos2{
+        margin-right: 5px;
+        margin-left: 4px;
+        font-size: 18px;
+        width: 228px;
+        height: 22px;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 410px;
+        height:1290px;
+        margin-left: 10px;
+         
+    }
+    .photo {
+        width: 410px;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: 134px;
+ 
+    }  
+    #novo {
+        width: 169px;
+        height: 129px;
+        margin-right: 23px;
+        float: left;
+        
+    }
+    .titu {
+        margin-top: 0px;
+        margin-bottom: 13px;
+        
+    }
+    .descr {
+        display:none;
+    }
+    
+    .btncomprar {
+        margin-left: 0px;
+        width: 200px;
+    }
+    .container2 {
+        display: grid;grid-template-columns: 1fr;
+        width: 410px;
+        height:1290px;
+        margin-left: 10px;
+         
+    }
+    .photo2 {
+        width: 410px;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: 134px;
+ 
+    }  
+    #novo2 {
+        width: 169px;
+        height: 129px;
+        margin-right: 23px;
+        float: left;
+
+    }
+    .titu2 {
+        margin-top: 0px;
+        margin-bottom: 13px;
+    
+    }
+    .descr2 {
+        display:none;
+    }
+    
+    .btncomprar2 {
+        margin-left: 0px;
+        width: 200px;
+    }
+    
+    .textonews {
+        text-align: center;
+        font: normal normal normal 14px Helvetica;
+        letter-spacing: 0px;
+        color: #888888;
+        opacity: 1;
+        width: 400px;
+        height: 32px;
+        margin-left: 17px;
+        
+    }
+    .divfinal {
+        display: grid;
+    }
+    .newslabel {
+        margin-right: 0px;  
+        margin-left: 9px;
+        
+    }
+    .newsinput {
+
+        margin-left: 9px; 
+    }
+    .inputamigo{
+        
+        width: 391px;
+        height: 30px;
+        text-align:left;
+    }
+    .inputemail{
+        
+        width: 391px;
+        height: 30px;
+        text-align:left;
+    }
+    
+    .labelamigo{
+        text-align: left;
+        
+    }
+    .labelemail{
+        text-align: left;
+        margin-top: 20px;
+        
+    }
+    .btnenviar2 {
+        margin-left: 0px;
+    }
+    
+    .txtfinal {
+        margin-left: 72px;
+        width: 260px;
+    }
+
+}
+      
+
+@media (max-width: 586px) {
+
+    .field #field1 {
+        width:103px;
+        height: 1px;  
+    }
+    .field #field2 {
+        width:102px;
+        height: 1px;  
+    }  
+}
+@media (max-width: 420px) {
+
+
+    #btnheader{
+        margin-right: 21px;
+        margin-bottom: 20px;
+    }
+    .btnheader {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 38px;
+    }
+    .frame1 {
+        margin-left: 17px;
+    }
+    #titulo {
+        width: 332px;
+    }
+    #texto {
+        width:386px;
+        height: 220px;
+    }
+    .formulario {
+        margin-left: 17px;
+        
+    }
+    .field {
+        align-items:unset;
+        display: flex;
+        margin-left: 0px;
+    }
+    .field #field1 {
+        margin-left: 0px;
+        margin-top: 91px;
+        width:103px;
+        height: 1px;
+    }
+    .field #field2 {
+        margin-top: 91px;
+        width:102px;
+        height: 1px;
+    }
+    .field #txtprodutos{
+        margin-top: 83px;
+        margin-left: 17px;
+        margin-right: 17px;
+        font-size: 18px;
+        width: 203px;
+        height: 22px;   
+    }
+    .field #field3 {
+        width:103px;
+        height: 1px;
+        margin-left: 0px;
+          
+    }
+    .field #field4 {
+        width:102px;
+        height: 1px;
+        margin-left: 0px;
+      
+    }
+    .field #txtprodutos2{
+        margin-right: 5px;
+        margin-left: 4px;
+        font-size: 18px;
+        width: 228px;
+        height: 22px;
+    }
+    .container {
+        width: 410px;
+        height:1290px;
+        margin-left: 10px;
+         
+    }
+    .photo {
+        width: 410px;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: 134px;
+ 
+    }  
+    #novo {
+        width: 169px;
+        height: 129px;
+        margin-right: 23px;
+        float: left;
+        
+    }
+    .titu {
+        margin-top: 0px;
+        margin-bottom: 13px;
+        
+    }
+    .descr {
+        display:none;
+    }
+    
+    .btncomprar {
+        margin-left: 0px;
+        width: 200px;
+    }
+    .container2 {
+        width: 410px;
+        height:1290px;
+        margin-left: 10px;
+         
+    }
+    .photo2 {
+        width: 410px;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: 134px;
+ 
+    }  
+    #novo2 {
+        width: 169px;
+        height: 129px;
+        margin-right: 23px;
+        float: left;
+
+    }
+    .titu2 {
+        margin-top: 0px;
+        margin-bottom: 13px;
+    
+    }
+    .descr2 {
+        display:none;
+    }
+    
+    .btncomprar2 {
+        margin-left: 0px;
+        width: 200px;
+    }
+    .textonews {
+        text-align: center;
+        font: normal normal normal 14px Helvetica;
+        letter-spacing: 0px;
+        color: #888888;
+        opacity: 1;
+        width: 400px;
+        height: 32px;
+        margin-left: 17px;
+        
+    }
+    .divfinal {
+        display: grid;
+    }
+    .newslabel {
+        margin-right: 0px;  
+        margin-left: 9px;
+        
+    }
+    .newsinput {
+
+        margin-left: 9px; 
+    }
+    .inputamigo{
+        
+        width: 391px;
+        height: 30px;
+        text-align:left;
+    }
+    .inputemail{
+        
+        width: 391px;
+        height: 30px;
+        text-align:left;
+    }
+    
+    .labelamigo{
+        text-align: left;
+        
+    }
+    .labelemail{
+        text-align: left;
+        margin-top: 20px;
+        
+    }
+    .btnenviar2 {
+        margin-left: 0px;
+    }
+    
+    .txtfinal {
+        margin-left: 72px;
+        width: 260px;
+    }
+
 }
