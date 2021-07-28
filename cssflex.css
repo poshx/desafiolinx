@@ -759,6 +759,18 @@
         margin-bottom: 20px;
     }
 }
+@media (max-width: 751px) {
+    #btnheader{
+        
+        margin-bottom: 20px;
+    }
+    .btnheader {
+        
+        
+        
+        
+    }
+}
 @media (max-width: 734px) {
     .btnmais {
         margin-left: 20px
@@ -774,12 +786,12 @@
 @media (max-width: 672px) {
     
     #btnheader{
-        margin-right: 21px;
+        
         margin-bottom: 20px;
     }
     .btnheader {
         display:grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr ; 
         margin-left: 38px;
         
     }
@@ -1171,6 +1183,15 @@
         width: 260px;
     }
 
+}
+@media (max-width: 400px){
+    .btnheader{
+        margin-left: 4%;
+    }
+    #btnheader {
+        width: 90%;
+    }
+    
 }
 @media (max-width: 365px) {
     #titulo {
