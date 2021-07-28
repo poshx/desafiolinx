@@ -656,6 +656,7 @@
 @media (max-width: 1188px) {
     .formulario {
         margin-left: 15.4rem;
+        margin-top: 30px;
         
     }
     .field #field1 {
@@ -1169,4 +1170,9 @@
         width: 260px;
     }
 
+}
+@media (max-width: 365px) {
+    #titulo {
+        font-size: 18px;
+    }
 }
