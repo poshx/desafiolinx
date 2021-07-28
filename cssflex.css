@@ -100,7 +100,7 @@
 
 #titulo {
     
-    width: 332px;
+    width: 331px;
     height: 23px;
     text-align: left;
     font: normal normal normal 20px Helvetica ;
@@ -995,7 +995,8 @@
         margin-left: 17px;
     }
     #titulo {
-        width: 332px;
+        width: 331px;
+        
     }
     #texto {
         width:386px;
