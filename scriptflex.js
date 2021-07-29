@@ -1,6 +1,4 @@
-import variavel from "./email";
 
-console.log(variavel)
 
 
 
