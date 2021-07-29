@@ -1,3 +1,9 @@
+import variavel from "./email";
+
+console.log(variavel)
+
+
+
 let panel1 = null;
 let panel2 = null;
 let container2 = document.querySelector('.container2')
@@ -14,6 +20,22 @@ window.addEventListener('load', async () => {
     
     
 });
+let form = document.querySelector('.submitamigo');
+let campo = document.querySelector('.inputamigo');
+let email = document.querySelector('#email2');
+
+form.addEventListener('submit', function(e) {
+    // alerta o valor do campo
+    
+    
+    
+
+    // impede o envio do form
+    e.preventDefault();
+});
+
+
+
 
 function mapElements() {
     panel1 = document.querySelector('.container')
@@ -62,6 +84,7 @@ async function fetchUsers() {
     renderUsers2();
     
     
+    
 
 }
 function mascara_cpf(){
@@ -73,30 +96,7 @@ function mascara_cpf(){
     }
     
 }
-function validarEmail(){
-    var email = document.querySelector('#email');
-    var error = document.querySelector('#error-email');
-    var sucess = document.querySelector('#sucess-email');
-    
-    
-    //if(!email.checkValidity()){
-    //    alert("Email invalido")
-    //} 
-    
-}
-    
-    
-function redefinirMsg(){
-    var error = document.querySelector('#error-email');
-    var sucess = document.querySelector('#sucess-email');
-    if (error.innerHTML == "Email invalido"){
-        error.innerHTML = "";
-    } 
-    
-}
-        
-      
-  
+
 
 function renderUsers (products) {
 
