@@ -9,7 +9,7 @@ Baixe o GitHub Desktop se preferir "https://desktop.github.com/" e clone o repos
 
 
 ## Configuração
-Preencha o formulario e clique em enviar para abrir a pagina email
+Preencha o formulário e clique em enviar para abrir a pagina email
 
 
 ## Links
