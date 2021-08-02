@@ -14,7 +14,6 @@
 
 }
 
-
 .opener {
     background-color: #707070;
     color: #eee;
@@ -29,10 +28,6 @@
     background-color: #fff;
   }
   
-
-
-
-
 .wrapper {
     display: grid;
     
@@ -751,12 +746,6 @@
         
         margin-bottom: 20px;
     }
-    .btnheader {
-        
-        
-        
-        
-    }
 }
 @media (max-width: 734px) {
     .btnmais {
@@ -1272,3 +1261,6 @@
         
 }
 }
+
+
+
