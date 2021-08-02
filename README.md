@@ -1,4 +1,4 @@
-![Logo of the project](https://s3.amazonaws.com//beta-img.b2bstack.net/uploads/production/provider/image/8/linx-logotipo.jpg)
+![Logo of the project](https://media-exp1.licdn.com/dms/image/C4D0BAQH8vV3lyWX0WA/company-logo_200_200/0/1562337648509?e=2159024400&v=beta&t=zFRInRXrlU-rT-xFSB06qJD9v3g9757ZpkkZBiW2OZs)
 
 # Desafio Linx
 > Testando seus conhecimentos em HTML, CSS e JAVASCRIPT.
